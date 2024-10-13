@@ -60,6 +60,7 @@ def format_account(account):
     return {
         'id': account.id,
         'name': account.name,
+        'country': account.country,
         'account_number': account.account_number,
         'balance': account.balance,
         'currency': account.currency,
